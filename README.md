@@ -45,7 +45,7 @@ These selected pages come from a real conversion of [Corma’s defensive-gap art
 </p>
 <p align="center"><sub>Appendix preview · The complete table header and sample rows are visible at print size.</sub></p>
 
-The complete Corma PDF and its captured article source are local smoke-test files and are not included in this repository. The public previews are attributed excerpts of the source article.
+The complete Corma PDF and its captured article source are local smoke-test files and are not included in this repository. The public previews are attributed excerpts of the source article. This 20-page stress test preserves all 11 captured artifacts at about 303 DPI and passes every source-text witness, but the tall network topology spans two landscape pages and leaves one sparse page. Those visible layout issues are part of the work still ahead.
 
 ## Run Paperfier
 
