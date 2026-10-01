@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="600" viewBox="0 0 1500 600" role="img" aria-labelledby="title desc">
+  <title id="title">Article to print workflow</title>
+  <desc id="desc">Three steps: capture the source, compose a paper layout, and review the printed page.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto">
+      <path d="M1 1 L10 6 L1 11" fill="none" stroke="#6e7681" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+    <style>
+      .label { font: 700 31px -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; fill: #17202c; }
+      .sub { font: 400 21px -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; fill: #495363; }
+      .num { font: 700 22px -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; fill: #fff; }
+      .line { stroke: #6e7681; stroke-width: 3; marker-end: url(#arrow); }
+    </style>
+  </defs>
+  <rect width="1500" height="600" rx="30" fill="#f6f8fb"/>
+  <g transform="translate(110 105)">
+    <rect width="340" height="390" rx="24" fill="#fff" stroke="#cbd5e1" stroke-width="3"/>
+    <rect width="340" height="50" rx="24" fill="#eaf1fb"/>
+    <circle cx="30" cy="25" r="7" fill="#7f91a9"/><circle cx="54" cy="25" r="7" fill="#7f91a9"/><circle cx="78" cy="25" r="7" fill="#7f91a9"/>
+    <rect x="34" y="93" width="272" height="135" rx="8" fill="#e8edf4"/>
+    <rect x="34" y="256" width="248" height="11" rx="5" fill="#b5bfcc"/>
+    <rect x="34" y="282" width="270" height="11" rx="5" fill="#d0d7e0"/>
+    <rect x="34" y="308" width="226" height="11" rx="5" fill="#d0d7e0"/>
+    <circle cx="40" cy="352" r="20" fill="#315f99"/><text x="40" y="360" text-anchor="middle" class="num">1</text>
+    <text x="75" y="361" class="label">Capture</text>
+    <text x="34" y="430" class="sub">Text, figures, and tables</text>
+  </g>
+  <path d="M490 300 H570" class="line"/>
+  <g transform="translate(590 105)">
+    <rect width="340" height="390" rx="24" fill="#fff" stroke="#cbd5e1" stroke-width="3"/>
+    <rect x="47" y="43" width="246" height="292" rx="7" fill="#fff" stroke="#d7dde6" stroke-width="3"/>
+    <text x="74" y="89" class="label" font-size="24">Article</text>
+    <rect x="74" y="111" width="184" height="9" rx="4" fill="#9ca9ba"/>
+    <rect x="74" y="132" width="192" height="9" rx="4" fill="#c8d0dc"/>
+    <rect x="74" y="153" width="168" height="9" rx="4" fill="#c8d0dc"/>
+    <rect x="74" y="187" width="192" height="69" rx="6" fill="#e7eef8"/>
+    <rect x="74" y="272" width="175" height="8" rx="4" fill="#c8d0dc"/>
+    <rect x="74" y="291" width="185" height="8" rx="4" fill="#c8d0dc"/>
+    <circle cx="40" cy="352" r="20" fill="#315f99"/><text x="40" y="360" text-anchor="middle" class="num">2</text>
+    <text x="75" y="361" class="label">Compose</text>
+    <text x="34" y="430" class="sub">Order and print layout</text>
+  </g>
+  <path d="M970 300 H1050" class="line"/>
+  <g transform="translate(1070 105)">
+    <rect width="340" height="390" rx="24" fill="#fff" stroke="#cbd5e1" stroke-width="3"/>
+    <rect x="48" y="42" width="222" height="294" rx="5" fill="#fff" stroke="#d7dde6" stroke-width="3"/>
+    <path d="M270 42 V89 H317" fill="#edf1f6" stroke="#d7dde6" stroke-width="3"/>
+    <text x="73" y="111" class="label" font-size="24">Read</text>
+    <rect x="73" y="131" width="170" height="9" rx="4" fill="#9ca9ba"/>
+    <rect x="73" y="152" width="170" height="9" rx="4" fill="#c8d0dc"/>
+    <rect x="73" y="173" width="158" height="9" rx="4" fill="#c8d0dc"/>
+    <path d="M73 216 H224 M73 226 H208 M73 236 H229" stroke="#315f99" stroke-width="4" stroke-linecap="round"/>
+    <rect x="73" y="259" width="170" height="42" rx="5" fill="#edf3fb"/>
+    <circle cx="40" cy="352" r="20" fill="#315f99"/><text x="40" y="360" text-anchor="middle" class="num">3</text>
+    <text x="75" y="361" class="label">Study</text>
+    <text x="34" y="430" class="sub">Print, annotate, revisit</text>
+  </g>
+</svg>

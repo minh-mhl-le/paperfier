@@ -1,0 +1,16 @@
+{
+  "name": "paperfier",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Build printable, source-faithful article archive PDFs with an auditable source bundle.",
+  "bin": {
+    "archive-article": "bin/archive-article.mjs"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

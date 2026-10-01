@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="900" viewBox="0 0 1800 900" role="img" aria-labelledby="title desc">
+  <title id="title">A blue curve with labeled axes</title>
+  <desc id="desc">A clear blue curve rises from the lower left; axes are named input and output.</desc>
+  <rect x="4" y="4" width="1792" height="892" rx="24" fill="#ffffff" stroke="#333333" stroke-width="8"/>
+  <path d="M 170 720 H 1630 M 170 720 V 150" stroke="#222222" stroke-width="7" fill="none"/>
+  <path d="M 180 680 C 480 680 650 620 850 505 C 1050 390 1210 245 1570 180" stroke="#2676c9" stroke-width="24" fill="none"/>
+  <circle cx="850" cy="505" r="28" fill="#d95f02"/>
+  <g fill="#1d2730" font-family="Arial, sans-serif" font-size="48">
+    <text x="880" y="830">Input</text>
+    <text x="56" y="390" transform="rotate(-90 56 390)">Output</text>
+    <text x="1190" y="120">Values remain vector</text>
+  </g>
+</svg>
